@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Academics</title>
+    <style>
+        /* Basic CSS styles for the Academics page */
+        /* Style the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(164, 41, 146)
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the department container */
+.departments {
+    background-color: #db64c5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the department list */
+.department-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style department headings */
+.department-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Style course items */
+.course-item {
+    font-size: 20px;
+    padding: 20px;
+    width: 300px;
+    transition: width 0.3s ease; /* Smooth width transition */
+    margin: 5px 0;
+}
+
+/* Style course links */
+.course-item a {
+    text-decoration: none;
+    color: #000fb6;
+}
+
+.course-item:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    background-color: rgb(226, 120, 210);
+    color: #005b8a;
+    width:fit-content;
+    width: 400px;
+}
+
+/* Add space between departments */
+.department {
+    margin-bottom: 20px;
+}
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="departments">
+        <h2>List of Departments and Courses</h2>
+        <ul class="department-list">
+            <li class="department">
+                <span class="department-name">Arts</span>
+                <ul class="courses">
+                    <li class="course-item"><a href="arts_english.html"  target="_blank">English</a></li>
+                    <li class="course-item"><a href="arts_sociology.html" target="_blank">Sociology</a></li>
+                </ul>
+            </li>
+            <li class="department">
+                <span class="department-name">Science</span>
+                <ul class="courses">
+                    <li class="course-item"><a href="science_computer_science.html"target="_blank">Computer Science</a></li>
+                    <li class="course-item"><a href="science_mathematics.html" target="_blank">Mathematics</a></li>
+                </ul>
+            </li>
+            <li class="department">
+                <span class="department-name">Commerce</span>
+                <ul class="courses">
+                    <li class="course-item"><a href="commerce_accounting.html" target="_blank">Accounting</a></li>
+                    <li class="course-item"><a href="commerce_business.html" target="_blank">Business Studies</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Additional content for individual course pages can be added here -->
+
+</body>
+</html>
